@@ -1,6 +1,5 @@
 pipeline{
-    agent{
-        label "node"
+    agent any
         name "Mayank"
     }
     stages{
